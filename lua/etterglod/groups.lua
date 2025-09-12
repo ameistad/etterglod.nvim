@@ -16,7 +16,7 @@ return {
 	LineNr = { fg = colors.line_nr, bg = colors.bg },
 	LineNrAbove = { fg = colors.line_nr },
 	LineNrBelow = { fg = colors.line_nr },
-	CursorLineNr = { fg = colors.orange, bold = true },
+	CursorLineNr = { fg = colors.orange },
 	SignColumn = { bg = colors.bg },
 	CursorLineSign = { bg = colors.bg_highlight },
 	FoldColumn = { fg = colors.indent_guide, bg = colors.bg },
