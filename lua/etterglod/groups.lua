@@ -76,7 +76,7 @@ return {
 	Exception = { fg = colors.keyword },
 
 	PreProc = { fg = colors.entity },
-	Include = { fg = colors.keyword },
+	Include = { fg = colors.keyword, bold = true },
 	Define = { fg = colors.keyword },
 	Macro = { fg = colors.entity },
 	PreCondit = { fg = colors.keyword },
@@ -163,6 +163,8 @@ return {
 	['@operator'] = { link = 'Operator' },
 	['@field'] = { link = 'Identifier' },
 	['@property'] = { link = 'Identifier' },
+	['@keyword.import'] = { fg = colors.keyword },
+	['@keyword.include'] = { fg = colors.keyword },
 
 	-- LSP
 	DiagnosticError = { fg = colors.error },
