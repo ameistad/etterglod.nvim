@@ -1,1 +1,1 @@
-require("etterglod").setup()
+require('etterglod').setup()
